@@ -8,7 +8,8 @@ pdf: true
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
 <a href="xiahangyu@gmail.com" style="margin-left:0.5em">xiahangyu@gmail.com</a>
-<i class="fi-phone" style="margin-left:1em">+86-13540677782</i>
+<i class="fi-phone" style="margin-left:1em"></i>
+  <a href="xiahangyu@gmail.com" style="margin-left:0.5em">+86-13540677782</a>
 </div>
 
 ## Education
