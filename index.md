@@ -1,15 +1,15 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: hangyux
 pdf: true
 ---
-# Wode __Ni__
+# 夏航宇
 
 <div id="webaddress">
-<i class="fi-home" style="margin-left:1em"></i>
-<a href="http://www.cs.cmu.edu/~woden" style="margin-left:0.5em">cs.cmu.edu/~woden</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
+<a href="xiahangyu@gmail.com" style="margin-left:0.5em">xiahangyu@gmail.com</a>
+<i class="fi-phone" style="margin-left:1em"></i>
+<a style="margin-left:0.5em">+86-13540677782</a>
 </div>
 
 ## Education
