@@ -3,7 +3,7 @@ layout: cv
 title: hangyux
 pdf: true
 ---
-# 夏航宇
+夏航宇
 
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
@@ -12,13 +12,10 @@ pdf: true
   <a href="xiahangyu@gmail.com" style="margin-left:0.5em">+86-13540677782</a>
 </div>
 
-## Education
+## 教育背景
 
-### __Carnegie Mellon University__ `2018.9 -`
-```
-Pittsburgh, PA
-```
-- Ph.D. in Software Engineering
+### 墨尔本大学 `2017.2 - 2019.1`
+- 计算机科学 理学硕士
 
 ### __Columbia University__ `2016.9 - 2018.5`
 ```
