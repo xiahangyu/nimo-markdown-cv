@@ -37,7 +37,7 @@ pdf: true
 ## 项目经历
 ### **基于游戏图像数据的 Atari 游戏通用性 AI (研究生毕业论文)** [[C++, Python源码](https://github.com/xiahangyu/ALE-Atari-Width)] `2017.8 - 2018.11`
   - 基于 M.G Bellemre et. al. 开发的 **Atari Learning Environment (ALE)** 设计可以被用于不同类型 Atari 游戏的 AI (domain-independent)
-  - **Iterated Width** 搜索+**B-PROS** 特征。此外还尝试使用了 **CNN** 和 **LSTM** 的 **AutoEncoder** 来对游戏图像进行特征提取。但效果不佳。主要原因是 GPU 性能不够，无法提供更复杂的计算
+  - **Iterated Width** 搜索+**B-PROS** 特征。此外还尝试使用了 **CNN** 和 **LSTM** 的 **AutoEncoder** 来对游戏图像进行特征提取。
   - 该 AI 可以在没有硬编码任何游戏策略的情况下取得比一般人类玩家更高的游戏分数[[游戏视频](https://www.youtube.com/channel/UC9QnDPExehDjGwc428EXnyg/playlists)]
 
 ### **阅读理解式 Question & Answering 模型** [[Python源码](https://github.com/xiahangyu/Question-Answering)] `2018.4 - 2018.5`
