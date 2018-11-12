@@ -14,21 +14,21 @@ pdf: true
 
 ## 教育背景
 ### 墨尔本大学 `2017.2 - 2019.1 @墨尔本，澳大利亚`
-- 计算机科学 理学硕士学位
+* 计算机科学 理学硕士学位
   
 ### 华中农业大学(211) `2012.9 - 2016.6 @武汉，中国`
-- 计算机科学与技术 工学学士学位
+* 计算机科学与技术 工学学士学位
 
 ## 专业技能
 
 ### 编程语言
-- C++, Python, PDDL, Strips, Java, Haskell
+* C++, Python, PDDL, Strips, Java, Haskell
   
 ### 技术
-- 智能规划: 
+* 智能规划: 
       * 搜索: blind/heuristic, MDP, MCTS/UCT, Iterated Width, AlphaGo Zero
       * 强化学习: Q-learning, Sarsa, Deep-Q-Learning    
-- 机器学习: 
+* 机器学习: 
       * 基础: 回归, 贝叶斯回归, SVM, Kernel, GMM/EM, PCA, MDS
       * NLP: VSM, Tagging(HMM, VITERBI), 语法分析(CYK/PCYK), 信息提取(NER, RE), 机器翻译(IBM model1 & EM)
       * 网页搜索: 信息检索(Querying, Querying Completion/Expansion)
