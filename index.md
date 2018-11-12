@@ -41,7 +41,9 @@ pdf: true
   - 该 AI 可以在没有硬编码任何游戏策略的情况下取得比一般人类玩家更高的游戏分数[[游戏视频](https://www.youtube.com/channel/UC9QnDPExehDjGwc428EXnyg/playlists)]
 
 ### **阅读理解式 Question & Answering 模型** [[Python源码](https://github.com/xiahangyu/Question-Answering)] `2018.4 - 2018.5`
-  - 对单词作**Embedding**。使用 **BM25/TF-IDF** 定位问题相关段落和句子，然后用 **seq2seq** 的 **GRU/LSTM** 模型来做(答案段落/答案句子, 问题)->(答案)的预测
+  - 对单词作**Embedding**
+  - **BM25/TF-IDF** 定位问题相关段落和句子
+  - **seq2seq** 的 **GRU/LSTM** 模型来做(答案段落/答案句子, 问题)->(答案)的预测
 
 ### **基于Spark的笛卡尔遗传程序算法分布式化研究 (本科毕业设计)** [[Scala源码](https://github.com/xiahangyu/Spark-CGP)] `2015.11 - 2016.6`
   - 设计11位多路选择器的逻辑电路. 
