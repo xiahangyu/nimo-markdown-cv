@@ -41,16 +41,19 @@ pdf: true
   - 该 AI 可以在没有硬编码任何游戏策略的情况下取得比一般人类玩家更高的游戏分数[[游戏视频](https://www.youtube.com/channel/UC9QnDPExehDjGwc428EXnyg/playlists)]
 
 ### **阅读理解式 Question & Answering 模型** [[Python源码](https://github.com/xiahangyu/Question-Answering)] `2018.4 - 2018.5`
-  - 对单词作**embedding**。使用 **BM25/TF-IDF** 定位问题相关段落和句子，然后用 **seq2seq** 的 **GRU/LSTM** 模型来做(答案段落/答案句子, 问题)->(答案)的预测
+  - 对单词作**Embedding**。使用 **BM25/TF-IDF** 定位问题相关段落和句子，然后用 **seq2seq** 的 **GRU/LSTM** 模型来做(答案段落/答案句子, 问题)->(答案)的预测
 
 ### **基于Spark的笛卡尔遗传程序算法分布式化研究 (本科毕业设计)** [[Scala源码](https://github.com/xiahangyu/Spark-CGP)] `2015.11 - 2016.6`
   - 设计11位多路选择器的逻辑电路. 
-  - 基于Spark/GraphX图计算框架提出了一种笛卡尔遗传规划程序的并行化方法来解决串行笛卡尔遗传程序无法处理问题规模极大、迭代层次极深的缺点
-  - 5台worker，1台master。通过大量的分布式计算最终在30分内成功找到一组解 (串行C程序花费了3.5个小时都无法求解)。
+  - 基于**Spark/GraphX**图计算框架，用并行化方法来解决串行笛卡尔遗传程序无法处理问题规模极大、迭代层次极深的缺点
+  - 5台worker，1台master。通过大量的分布式计算最终在30分内成功找到一组解(串行C程序花费了3.5个小时都无法求解)。
 
 ### **Ext2 文件仿真系统** [[C++源码]](https://github.com/xiahangyu/Ext2-simulation) `2015.6 - 2015.7`
   - 在 windows 系统下面模拟 Ext2 文件系统的磁盘初始化，文件目录操作
   - 在逻辑上实现系统组块描述表，位图，内外存 i 节点，进程文件打开表，系统文件打开表，路径解析，逻辑物理地址映射，空闲块分配，块回收
+
+## 校园经历
+在校期间多次参与千人规模的校园乐队演出，担任鼓手一职。
 
 <!-- ### Footer
 
