@@ -12,19 +12,19 @@ pdf: true
   <a href="xiahangyu@gmail.com" style="margin-left:0.5em">+86-13540677782</a>
 </div>
 
-## 教育背景
-### 墨尔本大学 `2017.2 - 2019.1 @墨尔本，澳大利亚`
+## **教育背景**
+### **墨尔本大学** `2017.2 - 2019.1 @墨尔本，澳大利亚`
 - 计算机科学 理学硕士学位
   
-### 华中农业大学(211) `2012.9 - 2016.6 @武汉，中国`
+### **华中农业大学(211)** `2012.9 - 2016.6 @武汉，中国`
 - 计算机科学与技术 工学学士学位
 
-## 专业技能
+## **专业技能**
 
-### 编程语言
+### **编程语言**
 - C++, Python, PDDL, Strips, Java, Haskell
   
-### 技术
+### **技术**
 - AI Planning:
     - Search: blind/heuristic, MDP, MCTS/UCT, Iterated Width, AlphaGo Zero
     - Reinforcement Learning: Q-learning, Sarsa, Deep-Q-Learning  
@@ -34,7 +34,7 @@ pdf: true
     - NLP: VSM, Tagging(HMM, VITERBI), CFG(CYK/PCYK), IE(NER, RE), Machine Translation(IBM model1 & EM)
     - Web Search: IR(Querying, Querying Completion/Expansion)
 
-## 项目经历
+## **项目经历**
 ### **基于游戏图像数据的 Atari 游戏通用性 AI (研究生毕业论文)** [[C++, Python源码](https://github.com/xiahangyu/ALE-Atari-Width)] `2017.8 - 2018.11`
   - 基于 M.G Bellemre et. al. 开发的 **Atari Learning Environment (ALE)** 设计可以被用于不同类型 Atari 游戏的 AI
   - 核心方法 **Iterated Width Search** + **B-PROS Method**。
@@ -56,7 +56,7 @@ pdf: true
   - 相关数据结构: 组块描述表，位图，内外存 i 节点，进程文件打开表，系统文件打开表
   - 相关算法: 路径解析，逻辑物理地址映射，空闲块分配，块回收
 
-## 校园经历
+## **校园经历**
 在校期间多次参与千人规模的校园乐队演出，担任鼓手一职。
 
 <!-- ### Footer
