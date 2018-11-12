@@ -21,9 +21,9 @@ pdf: true
 - 计算机科学与技术 工学学士学位
 
 ## 专业技能
-###编程语言
+### 编程语言
 - C++, Python, PDDL, Strips, Java, Haskell
-###技术
+### 技术
 - 智能规划: 
       * 搜索: blind/heuristic, MDP, MCTS/UCT, Iterated Width, AlphaGo Zero
       * 强化学习: Q-learning, Sarsa, Deep-Q-Learning
