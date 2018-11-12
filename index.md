@@ -25,14 +25,14 @@ pdf: true
 - C++, Python, PDDL, Strips, Java, Haskell
   
 ### 技术
-- 智能规划:
-    - 搜索: blind/heuristic, MDP, MCTS/UCT, Iterated Width, AlphaGo Zero
-    - 强化学习: Q-learning, Sarsa, Deep-Q-Learning  
+- AI Planning:
+    - Search: blind/heuristic, MDP, MCTS/UCT, Iterated Width, AlphaGo Zero
+    - Reinforcement Learning: Q-learning, Sarsa, Deep-Q-Learning  
   
-- 机器学习: 
-    - 基础: 回归, 贝叶斯回归, SVM, Kernel, GMM/EM, PCA, MDS
-    - NLP: VSM, Tagging(HMM, VITERBI), 语法分析(CYK/PCYK), 信息提取(NER, RE), 机器翻译(IBM model1 & EM)
-    - 网页搜索: 信息检索(Querying, Querying Completion/Expansion)
+- Machine Learning: 
+    - Basic: Regression, Bayesian Regression, SVM, Kernel, GMM/EM, PCA, MDS
+    - NLP: VSM, Tagging(HMM, VITERBI), CFG(CYK/PCYK), IE(NER, RE), Machine Translation(IBM model1 & EM)
+    - Web Search: IR(Querying, Querying Completion/Expansion)
 
 ## 项目经历
 ### **基于游戏图像数据的 Atari 游戏通用性 AI (研究生毕业论文)** [[C++, Python源码](https://github.com/xiahangyu/ALE-Atari-Width)] `2017.8 - 2018.11`
