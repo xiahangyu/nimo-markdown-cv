@@ -33,56 +33,23 @@ pdf: true
       * 网页搜索: 信息检索(Querying, Querying Completion/Expansion)
 
 ## 项目经历
-### 基于游戏图像数据的 Atari 游戏通用性 AI (研究生毕业论文)[[源码](https://github.com/xiahangyu/ALE-Atari-Width)]
-  * 基于 M.G Bellemre et. al. 开发的 Atari Learning Environment (ALE) 设计可以被用于不同类型 Atari 游戏的 AI
-  * **Iterated Width** 搜索+**B-PROS** 特征。此外还尝试使用了 **CNN** 和 **LSTM** 的 **AutoEncoder** 来对 游戏图像进行特征提取，但效果不佳。主要原因是 GPU 性能不够，无法提供更复杂的计算
-  * 该 AI 可以在没有硬编码任何游戏策略的情况下取得比一般人类玩家更高的游戏分数[游戏视频](https://www.youtube.com/channel/UC9QnDPExehDjGwc428EXnyg/playlists)
+### 基于游戏图像数据的 Atari 游戏通用性 AI (研究生毕业论文) [[C++, Python源码](https://github.com/xiahangyu/ALE-Atari-Width)] `2017.8 - 2018.11`
+  * 基于 M.G Bellemre et. al. 开发的 **Atari Learning Environment (ALE)** 设计可以被用于不同类型 Atari 游戏的 AI (domain-independent)
+  * **Iterated Width** 搜索+**B-PROS** 特征。此外还尝试使用了 **CNN** 和 **LSTM** 的 **AutoEncoder** 来对游戏图像进行特征提取。但效果不佳。主要原因是 GPU 性能不够，无法提供更复杂的计算
+  * 该 AI 可以在没有硬编码任何游戏策略的情况下取得比一般人类玩家更高的游戏分数[[游戏视频](https://www.youtube.com/channel/UC9QnDPExehDjGwc428EXnyg/playlists)]
 
-### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-__Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+### 阅读理解式 Question & Answering 模型 [[Python源码](https://github.com/xiahangyu/Question-Answering)] `2018.4 - 2018.5`
+  * 对单词作**embedding**。使用 **BM25/TF-IDF** 定位问题相关段落和句子，然后用 **seq2seq** 的 **GRU/LSTM** 模型来做(答案段落/答案句子, 问题)->(答案)的预测
 
-### [__Whiteboard Scanning Using Super-Resolution__](http://scholar.dickinson.edu/student_honors/221/)
-__Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
+### 基于Spark的笛卡尔遗传程序算法分布式化研究 (本科毕业设计) [[Scala源码](https://github.com/xiahangyu/Spark-CGP)] `2015.11 - 2016.6`
+  * 设计11位多路选择器的逻辑电路. 
+  * 基于Spark/GraphX图计算框架提出了一种笛卡尔遗传规划程序的并行化方法来解决串行笛卡尔遗传程序无法处理问题规模极大、迭代层次极深的缺点
+  * 5台worker，1台master。通过大量的分布式计算最终在30分内成功找到一组解 (串行C程序花费了3.5个小时都无法求解)。
 
-## Experience
-
-### __Carnegie Mellon University, Research Experiences for Undergraduate__  `2017.5 - 2017.8`
-_Research Assistant_<br>
-__Penrose__ is a system that automatically visualizes mathematics using two domain-specific languages: __Substance__ and __Style__. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### __Columbia University, Computer Graphics and User Interfaces Lab__ `2017.1 - 2017.5`
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augumented Reality__ project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### __AsiaInfo__ `2015.6 - 2015.8`
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-
-## Teaching
-
-Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2017 - 2018` <br>
-Teaching Assistant, __Introduction to Java II (COMP 132)__ `Dickinson, 2016` <br>
-Peer Tutor, __Data Structures and Problem Solving (COMP 232)__ `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-
-## Honors & Awards
-
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society  `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
+### Ext2 文件仿真系统 [[C++源码]] `2015.6 - 2015.7`
+  * 在 windows 系统下面模拟 Ext2 文件系统的磁盘初始化，文件目录操作
+  * 在逻辑上实现系统组块描述表，位图，内外存 i 节点，进程文件打开表，系统文件打开表，路径解析，逻辑物理地址映射，空闲块分配，块回收
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Nov 2018 -->
