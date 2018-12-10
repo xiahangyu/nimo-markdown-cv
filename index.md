@@ -9,7 +9,7 @@ pdf: true
 <i class="fi-mail" style="margin-left:1em"></i>
 <a href="xiahangyu@gmail.com" style="margin-left:0.5em">xiahangyu@gmail.com</a>
 <i class="fi-telephone" style="margin-left:1em"></i>
-  <a href="xiahangyu@gmail.com" style="margin-left:0.5em">+86-13540677782</a>
+  <a href="xiahangyu@gmail.com" style="margin-left:0.5em">+86-15911055391</a>
 </div>
 
 ## **教育背景**
