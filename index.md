@@ -7,9 +7,9 @@ pdf: true
 
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="xiahangyu@gmail.com" style="margin-left:0.5em">xiahangyu@gmail.com</a>
+<a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
 <i class="fi-telephone" style="margin-left:1em"></i>
-  <a href="xiahangyu@gmail.com" style="margin-left:0.5em">+86-15911055391</a>
+  <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
 </div>
 
 ## **教育背景**
@@ -34,7 +34,39 @@ pdf: true
     - NLP: VSM, Tagging(HMM, VITERBI), CFG(CYK/PCYK), IE(NER, RE), Machine Translation(IBM model1 & EM)
     - Web Search: IR(Querying, Querying Completion/Expansion)
 
+- 客户端开发:
+    - WxPython
+ 
+- 手机设备自动化相关:
+    - UiAutomator (Android)
+    - Minicap, Minitouch/Multitouch (Android)
+    - Adb (Android)
+    - Wda (IOS) 
+
+- 后台相关: 了解有限
+    - RESTful, RPC, GPRC
+    - Django
+    - Redis
+
 ## **项目经历**
+### **Smart tool** [Python] `2019.11 - 至今`
+  - 一个PC端手机自动化脚本录制工具。客户端使用WxPython开发，通过在工具中操作手机自动生成对应流程的脚本流程文件(一些json文件定义的状态转换图)。
+  - 因为有AIClient手机驱动的经历，这个项目中主要工作集中在客户端开发。多个Panel之间的消息通信（使用了一个类似publisher-subscriber的多线程机制），以及复杂的状态转换生成。
+
+### **维护山竹客户端** [Python] `2019.9- 至今`
+  - 一个分布式自动化测试平台的执行工具。由Agent和runner构成。
+  - Agent管理当前电脑上连接的测试手机，实时从服务器拉取测试任务，启动任务，等待结束后上传任务结果。
+  - Runner执行测试脚本，操控手机，收集执行信息，上传本次测试结果。
+
+### **AIClient** [Python] `2019.7 - 至今`
+  - 一个与远程手游AI服务器通信的手机客户端。负责从手机截取图片发送至AI服务器，获取对应动作消息后在手机执行对应动作。客户端与服务端共同合作实现包括启动游戏，登陆账号，进入对局，自动游戏的效果。
+  - 手机驱动：Adb安装启动游戏，UiAutomator手机截图/执行动作，MultiTouch多点触控。
+  - 网络通信：RESTful API与AI模型管理服务器申请AI服务 (HTTP)，ZeroMQ(TCP)与AI服务进行同步/异步通信。
+
+### **Watcher** [Python] `2019.4 - 2019.7`
+  - 一个RESTful web服务监控系统。定时监控一些服务器接口返回数据的有效性，结果通过邮件通知和网页显示。监控云服务器共享磁盘各路径大小（可配置路径，可highlight和ignore指定路径），空间过低时邮件警报。
+  - Docker服务器，Redis数据存储，Nginx+wsgi负载均衡
+
 ### **基于游戏图像数据的 Atari 游戏通用性 AI (研究生毕业论文)** [[C++, Python源码](https://github.com/xiahangyu/ALE-Atari-Width)] `2017.8 - 2018.11`
   - 基于 M.G Bellemre et. al. 开发的 **Atari Learning Environment (ALE)** 设计可以被用于不同类型 Atari 游戏的 AI
   - 核心方法 **Iterated Width Search** + **B-PROS Method**。
