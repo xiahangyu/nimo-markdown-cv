@@ -25,6 +25,12 @@ pdf: true
 - C++, Python, PDDL, Strips, Java, Haskell
   
 ### **技术**
+- UE4: 
+    - 基本渲染管线，PBR
+    - UMG, Slate
+    - 材质系统基础
+	- 些许Game play相关知识
+    
 - AI Planning:
     - Search: blind/heuristic, MDP, MCTS/UCT, Iterated Width, AlphaGo Zero
     - Reinforcement Learning: Q-learning, Sarsa, Deep-Q-Learning  
@@ -33,9 +39,6 @@ pdf: true
     - Basic: Regression, Bayesian Regression, SVM, Kernel, GMM/EM, PCA, MDS
     - NLP: VSM, Tagging(HMM, VITERBI), CFG(CYK/PCYK), IE(NER, RE), Machine Translation(IBM model1 & EM)
     - Web Search: IR(Querying, Querying Completion/Expansion)
-
-- 客户端开发:
-    - WxPython
  
 - 手机设备自动化相关:
     - UiAutomator (Android)
@@ -48,27 +51,28 @@ pdf: true
     - Django
     - Redis
 
-- UE4: 自学
-    - 基本渲染管线，PBR
-    - UMG
-    - 材质系统基础
-    - 蓝图和UE4C++的简单使用
-
 ## **工作经历**
-### **腾讯计算机系统有限公司** `2019.4 - 至今`
+### **深圳前海创梦天地** `2020.4 - 至今`
+- UE4客户端开发
+
+### **腾讯计算机系统有限公司** `2019.4 - 2020.4`
 - 测试开发
 
 ## **项目经历**
-### **Smart tool** [Python] `2019.11 - 至今`
+### **一款TPS游戏** [C++] `2019.4 - 至今`
+  - 主要负责部分UI界面的开发：好友，房间，聊天，局内枪械数据面板等
+  - 游戏启动器：游戏pak打包。启动器为program类型的独立程序，负责更新pak和代码，并启动游戏。
+  
+### **Smart tool** [Python] `2019.11 - 2020.4`
   - 一个PC端手机自动化脚本录制工具。客户端使用WxPython开发，通过在工具中操作手机自动生成对应流程的脚本流程文件(一些json文件定义的状态转换图)。
   - 因为有AIClient手机驱动的经历，这个项目中主要工作集中在客户端开发。多个Panel之间的消息通信（使用了一个类似publisher-subscriber的多线程机制），以及复杂的状态转换生成。
 
-### **维护山竹客户端** [Python] `2019.9- 至今`
+### **维护山竹客户端** [Python] `2019.9 - 2020.4`
   - 一个分布式自动化测试平台的执行工具。由Agent和runner构成。
   - Agent管理当前电脑上连接的测试手机，实时从服务器拉取测试任务，启动任务，等待结束后上传任务结果。
   - Runner执行测试脚本，操控手机，收集执行信息，上传本次测试结果。
 
-### **AIClient** [Python] `2019.7 - 至今`
+### **AIClient** [Python] `2019.7 - 2020.4`
   - 一个与远程手游AI服务器通信的手机客户端。负责从手机截取图片发送至AI服务器，获取对应动作消息后在手机执行对应动作。客户端与服务端共同合作实现包括启动游戏，登陆账号，进入对局，自动游戏的效果。
   - 手机驱动：Adb安装启动游戏，UiAutomator手机截图/执行动作，MultiTouch多点触控。
   - 网络通信：RESTful API与AI模型管理服务器申请AI服务 (HTTP)，ZeroMQ(TCP)与AI服务进行同步/异步通信。
