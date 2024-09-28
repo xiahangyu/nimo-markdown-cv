@@ -29,7 +29,7 @@ pdf: true
 ## **技术栈**
 ### **UE4技能**
 - 网络同步
-- Gameplay框架，一定程度的AbilitySystem
+- Gameplay框架
 - RawInput
 - 相机管理
 - 移动组件设计思路
