@@ -39,7 +39,7 @@ pdf: true
   - Tick, RootMotion, Auto-Server-Simu同步和插值细节。
   - CMC官方移动模式的实现细节。
 - 动画
-  - ALS，Lyra以及GASP Loco部分设计思路以及实现细节，对应的动画设计要求。
+  - ALS，Lyra以及部分GASP Loco设计思路以及实现细节，对应的动画设计要求。
   - 动画更新和解算的实现细节。
   - 绝大部分AnimNode的代码细节。
     
