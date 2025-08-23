@@ -74,8 +74,8 @@ pdf: true
    - 目压触发的特殊Loco：结合技能流程（其他人的模块），通过Timeline添加移除Tag的方式控制窗口期以及Loco的强行退出。LocoSystem仅对Tag和Payload进行响应。最后做到的是可配置的目压的连段位移，不同的情况可以触发不同的连段，完全由策划控制。并且结束后可以以特殊的动画回到Loco（美术规格）。
  - 全混搭的换装：目前是一个跑通验证流程，并包含完整配置流程的Demo。以插件形式通过组件和接口赋予Actor换装的功能。
    - 角色的模型由若干个单独的PartMesh拼凑而成，每个Part可以使用不同的皮肤。同时支持两种方案：
-     - 1.没有裸模，Part带有主体模型。使用UE5 MergeMesh对模型进行融合，但是会丢失PhysicsAsset和Morph数据，需要额外处理。一个SkeletamMeshComponent。
-     - 2.有裸模，Part不带主体模型。仅飘带、衣物等、以及部分主骨架。使用LeaderPoseComponent，不MerMesh，对PhysicsAsset和Morph无影响。多个SkeletalMeshComponent。
+     - 没有裸模，Part带有主体模型。使用UE5 MergeMesh对模型进行融合，但是会丢失PhysicsAsset和Morph数据，需要额外处理。一个SkeletamMeshComponent。
+     - 有裸模，Part不带主体模型。仅飘带、衣物等、以及部分主骨架。使用LeaderPoseComponent，不MerMesh，对PhysicsAsset和Morph无影响。多个SkeletalMeshComponent。
    - 增量骨架，以及对源码做了轻微的修改。仅需要一个AnimInstance，一套主骨架动画。每个部位的每个皮肤一套动画，BindPose差别不大时可以复用。
    - 动画逻辑处理只需要关心主骨架动画，AnimInstance会根据部位动画的配置Asset根据名称找到对应的部位动画进行播放。支持蒙太奇，BlendSpace。
    - 功能组件化，不依赖Actor类型。使用时只需要通过组件接口传入部件信息的Array即可。部件信息仅包括部件ID和部件皮肤ID。
