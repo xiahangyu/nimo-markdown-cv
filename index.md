@@ -121,6 +121,6 @@ pdf: true
   - 对动画在Gameplay框架下的处理方式非常清楚。
   - 对相机的更新流程，数据处理比较清楚。
   - 清楚动画的计算流程，大部分AnimNode的实现细节。
-<!-- ### Footer
 
+<!-- ### Footer
 Last updated: Nov 2018 -->
