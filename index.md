@@ -31,10 +31,6 @@ pdf: true
 
 ## **技术栈**
 ### **UE技能**
-- 网络同步
-- Gameplay框架
-- RawInput源码流程
-- 相机管理
 - CMC实现细节
   - Tick, RootMotion, Auto-Server-Simu同步和插值细节。
   - CMC官方移动模式的实现细节。
@@ -42,15 +38,21 @@ pdf: true
   - ALS，Lyra以及部分GASP Loco设计思路以及实现细节，对应的动画设计要求。
   - 动画更新和解算的实现细节。
   - 绝大部分AnimNode的代码细节。
+- 网络同步
+- Gameplay框架
+- RawInput源码流程
+- 相机管理
     
 ### **模块技能**
+- 移动组件的定制化开发
+- 单动画实例下支持部位混搭的换肤
+- 动画框架搭建：Arpg和射击类型游戏角色的动画框架设计。
 - 枪械武器
 - 角色状态机
 - 玩法相关的框架设计
-- Arpg和射击类型游戏角色的动画Loco设计框架，以及初步掌握MM的使用。
-- 移动组件的定制化开发。
-- 单动画实例下支持部位混搭的换肤。
 
+### **个人技术文档和练手Demo**
+- https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud
 
 ## **项目经历**
 ### **Nami** `2024.12 - 至今`
