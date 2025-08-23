@@ -10,6 +10,9 @@ pdf: true
   <a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
 <i class="fi-telephone" style="margin-left:1em"></i>
   <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
+</div>
+
+<div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
   <a href="https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud" style="margin-left:0.5em">个人技术文档和练手Demo</a>
 </div>
@@ -83,7 +86,7 @@ pdf: true
      - 项目方面：将子类的暴力继承改回了使用父类的逻辑。调整一些逻辑的实现位置，比如此前PhysXXX相关的修改该放到PerformMovement的哪个环节中，哪些该用RootMotion实现，哪些该用动力学方法实现等。源码实在不支持的修改再从源码合适位置引申出一个由子类负责的处理函数。
  - KawaiiPhysics实装：主要是工作流相关内容
    - 源码级理解，有实操经验。知道KawaiiPhysics的能力边界。
-   - 对KawaiiPhysics每一个参数的实现和使用方法整理成了图文文档（后文中个人技术文档中有，但是部分图片涉及在研项目，已经移除），供美术使用。
+   - 对KawaiiPhysics每一个参数的实现和使用方法整理成了图文文档（顶部个人技术文档中有，但是部分图片涉及在研项目，已经移除），供美术使用。
    - 提供了模板化PhysicSettings的配置方式。以Asset的形式保存常用PhysicSettings，Kawaii节点中通过选择Asset来初始化PhysicSettings。
 
 ### **卡拉彼丘** `2020.4 - 2024.11`
@@ -116,17 +119,6 @@ pdf: true
   - 对动画在Gameplay框架下的处理方式非常清楚。
   - 对相机的更新流程，数据处理比较清楚。
   - 清楚动画的计算流程，大部分AnimNode的实现细节。
-
-
-## **个人技术文档和练手Demo**
-<div id="webaddress">
-<i class="fi-mail" style="margin-left:1em"></i>
-<a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
-<i class="fi-telephone" style="margin-left:1em"></i>
-  <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
-</div>
-- https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud
-  
 <!-- ### Footer
 
 Last updated: Nov 2018 -->
