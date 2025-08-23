@@ -7,9 +7,11 @@ pdf: true
 
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
+  <a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
 <i class="fi-telephone" style="margin-left:1em"></i>
   <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
+<i class="fi-mail" style="margin-left:1em"></i>
+  <a href="https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud" style="margin-left:0.5em">个人技术文档和练手Demo</a>
 </div>
 
 ## **教育背景**
@@ -117,6 +119,12 @@ pdf: true
 
 
 ## **个人技术文档和练手Demo**
+<div id="webaddress">
+<i class="fi-mail" style="margin-left:1em"></i>
+<a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
+<i class="fi-telephone" style="margin-left:1em"></i>
+  <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
+</div>
 - https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud
   
 <!-- ### Footer
