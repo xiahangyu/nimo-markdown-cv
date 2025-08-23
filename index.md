@@ -10,12 +10,10 @@ pdf: true
   <a href="348106768@qq.com" style="margin-left:0.5em">348106768@qq.com</a>
 <i class="fi-telephone" style="margin-left:1em"></i>
   <a href="348106768@qq.com" style="margin-left:0.5em">+86-13797506543</a>
-</div>
-
-<div id="webaddress1">
 <i class="fi-mail" style="margin-left:1em"></i>
   <a href="https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud" style="margin-left:0.5em">个人技术文档和练手Demo</a>
 </div>
+
 
 ## **教育背景**
 ### **墨尔本大学** `2017.2 - 2019.1 @墨尔本，澳大利亚`
