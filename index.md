@@ -51,9 +51,6 @@ pdf: true
 - 角色状态机
 - 玩法相关的框架设计
 
-### **个人技术文档和练手Demo**
-- https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud
-
 ## **项目经历**
 ### **Nami** `2024.12 - 至今`
 
@@ -88,6 +85,10 @@ pdf: true
   - 对相机的更新流程，数据处理比较清楚。
   - 清楚动画的计算流程，大部分AnimNode的实现细节。
 
+
+## **个人技术文档和练手Demo**
+- https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud
+  
 <!-- ### Footer
 
 Last updated: Nov 2018 -->
