@@ -56,8 +56,7 @@ pdf: true
 - 玩法相关的框架设计
 
 ### **个人技术文档和练手Demo**
- - 顶部个人信息栏(https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud?from=space_shared_folder)
-
+- 顶部个人信息栏(https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud?from=space_shared_folder)
 
 ## **项目经历**
 ### **Nami** `2024.12 - 至今`
@@ -123,4 +122,5 @@ pdf: true
   - 清楚动画的计算流程，大部分AnimNode的实现细节。
 
 <!-- ### Footer
+
 Last updated: Nov 2018 -->
