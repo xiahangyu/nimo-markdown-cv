@@ -23,7 +23,7 @@ pdf: true
 - 计算机科学与技术 工学学士学位
   
 ## **个人简述**
-  有0-1的成功上线项目经历，并且经历了1年的上线版本的开发。有成功项目经验。深入理解ALS, Lyra, GASP的设计思路。三个系统都有在项目中的深度使用经验，可以从零开始为项目定制动画框架，动画资源管理，皮肤系统，角色状态机，武器系统，多角色交互的暗杀处决系统等。射击类、ARPG类均可。此外，还深入使用过UE5的MotionMatching，AnimWarping，MotionWarping以及DistanceMatching技术。对于后三者有源码级理解，可以深入定制。熟知常用的IK算法和FootPlacement的计算，能在项目中落地。深度使用过骨骼的物理动画模拟如KawaiiPhysics、基于PhysicsAsset的PhysicsAnimation。对移动和动画模块的底层实现十分熟悉，具备在引擎层面深度开发的能力，比如如何多线程执行rootmotion的animsequence动画，如何单动画实例实现任意搭配部位的换装系统（支持各部位有独立的locomotion动画）。对动画的多线程更新、评估、动画状态机、动画图表的底层实现十分熟悉。对骨骼，模型，动画的导入流程有一定了解。有UE5使用IKRetargeter做离线和运行时动画重定向以及UE4遗留的运行时动画资源对模型的retargeting有使用经验，后者有源码级理解。移动方面有攀爬，直立跑墙（任何角度，任何墙面衔接方式），载具（马匹）的开发经验。能够深度定制移动组件，处理DS架构下网络同步的问题。有处理移动拉扯的经验。除此之外，还具备丰富的Gameplay开发经验，包括但不限于: GAS, 玩家操控，DS网络同步架构底层实现，相机管理，玩法开发。
+  有0-1的成功上线项目经历，并且经历了1年的上线版本的开发。有成功项目经验。深入理解ALS, Lyra, GASP的设计思路。三个系统都有在项目中的深度使用经验，可以从零开始为项目定制动画框架，动画资源管理，皮肤系统，角色状态机，武器系统，多角色交互的暗杀处决系统等。射击类、ARPG类均可。此外，还深入使用过UE5的MotionMatching，AnimWarping，MotionWarping以及DistanceMatching技术。对于后三者有源码级理解，可以深入定制。熟知常用的IK算法和FootPlacement的计算，能在项目中落地。深度使用过骨骼的物理动画模拟如KawaiiPhysics、基于PhysicsAsset的PhysicsAnimation。对移动和动画模块的底层实现十分熟悉，具备在引擎层面深度开发的能力，比如如何多线程执行rootmotion的animsequence动画，如何单动画实例实现任意搭配部位的换装系统（支持各部位有独立的locomotion动画）。对动画的多线程更新、评估、动画状态机、动画图表的底层实现十分熟悉。对动画的导入流程有一定了解。有UE5使用IKRetargeter做离线和运行时动画重定向以及UE4遗留的运行时动画资源对模型的retargeting有使用经验，后者有源码级理解。移动方面有攀爬，直立跑墙（任何角度，任何墙面衔接方式），载具（马匹）的开发经验。能够深度定制移动组件，处理DS架构下网络同步的问题。有处理移动拉扯的经验。除此之外，还具备丰富的Gameplay开发经验，包括但不限于: GAS, 玩家操控，DS网络同步架构底层实现，相机管理，玩法开发。
 
 ## **个人技术文档和练手Demo**
 - 顶部个人信息栏(https://ri77tlp7on3.feishu.cn/drive/folder/XCjqfQeTvlj2RfdVCAKcNF84nud?from=space_shared_folder)
