@@ -76,6 +76,9 @@ pdf: true
   - 等级经验组件、计时组件。类似UE5的GameEvent系统，大量使用GameplayTag对控制和具体的逻辑进行解耦。
   - 使用同步数据和TimeStamp保证关键流程的一致性。
 
+### **深圳市腾讯计算机系统有限公司** `2019.4 - 2020.4`
+- IEG TuringLab：测试开发
+
 <!-- ### Footer
 
 Last updated: Nov 2018 -->
